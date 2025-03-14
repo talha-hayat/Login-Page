@@ -1,0 +1,88 @@
+body{
+    background-color: gray;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.home-button {
+    display: inline-block;
+    background-color: hsl(251, 87%, 50%); /* Bootstrap primary color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 450px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+header {
+    background-color: #a9f899;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#products h1{
+ font-size: 50px;
+ background-color: rgb(74, 35, 248);
+ border-radius: 50px;
+ color: white;
+ padding-left: 400px;
+}

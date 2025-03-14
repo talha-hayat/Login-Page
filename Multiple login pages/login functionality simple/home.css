@@ -1,0 +1,51 @@
+
+header {
+    background-color: hsl(59, 96%, 51%);
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 30px;
+    color: #4806ff;
+    background-color: rgb(124, 247, 23);
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+
+
+.home-button {
+    display: inline-block;
+    background-color: hsl(251, 87%, 50%); /* Bootstrap primary color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 450px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
